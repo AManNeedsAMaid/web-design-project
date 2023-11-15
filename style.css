@@ -1,0 +1,516 @@
+@media only screen and (min-width: 60rem) /* for desktop */ {
+  body {
+    font-family: Monospace, serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .navbar {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+    top: 0;
+    left: 0;
+    padding: 7.5px 5px 7.5px 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: chomepage;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar > ul > li {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    flex-shrink: 0;
+  }
+
+  .navbar > ul > li > a {
+    display: inline-block;
+    font-size: 1.15em;
+    background-color: #a3b8c8;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  hr {
+    margin-right: auto;
+  }
+
+  #our-staff-caption {
+    margin-left: 2.5%;
+  }
+
+  .header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+
+  #homepage-header {
+    background-image: url(imgs/homepage-header.jpg);
+    background-position: left;
+  }
+
+  #rec-materials-header {
+    background-image: url(imgs/origami-paper.jpg);
+    background-position: center;
+  }
+
+  .header-flexbox {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .header-flexbox > h1 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    width: auto;
+    max-width: 75%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .header-flexbox > h3 {
+    padding: 30px 20px 30px 20px;
+    margin-left: 2.5%;
+    margin-right: auto;
+    margin-top: 0;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .header-flexbox > h5 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    width: auto;
+    max-width: 75%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  #materials-list {
+    text-align: center;
+    list-style: upper-roman outside;
+    width: 20%;
+    margin: auto;
+  }
+
+  #materials-list > li {
+    margin-top: 8%;
+  }
+
+  .content {
+    background-color: black;
+    color: white;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .content a {
+    color: white;
+  }
+
+  .content > p {
+    margin-top: 2.5%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    width: 80%;
+  }
+
+  .content > ul {
+    list-style: square outside;
+    margin-left: 5%;
+  }
+
+  #homepage-staff-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hp-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+  }
+
+  .hp-card > img {
+    width: 50%;
+  }
+
+  .hp-card > p {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 40rem) and (max-width: 59.99rem) /* for tablets */ {
+  body {
+    font-family: Monospace, serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .navbar {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+    top: 0;
+    left: 0;
+    padding: 7.5px 5px 7.5px 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar > ul > li {
+    /* display: inline-block; */
+    padding: 0px 5px 0px 5px;
+    flex-shrink: 0;
+  }
+
+  .navbar > ul > li > a {
+    /* display: inline-block; */
+    font-size: 1.15em;
+    background-color: #a3b8c8;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar-page-button {
+    display: none;
+  }
+
+  .navbar-page-button > a {
+    display: none;
+  }
+
+  .header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+
+  #homepage-ul {
+    text-align: center;
+    margin: auto;
+    margin-top: 2.5%;
+    width: 60%;
+  }
+
+  .content > p {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  #homepage-header {
+    background-image: url(imgs/homepage-header.jpg);
+    background-position: left;
+  }
+
+  #rec-materials-header {
+    background-image: url(imgs/origami-paper.jpg);
+    background-position: center;
+  }
+
+  .header-flexbox {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .header-flexbox > h1 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .header-flexbox > h3 {
+    padding: 30px 20px 30px 20px;
+    margin: auto;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    width: auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .header-flexbox > h5 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 75%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  #our-staff-caption {
+    padding-bottom: 0;
+  }
+
+  #materials-list {
+    text-align: center;
+    list-style: upper-roman outside;
+    width: 20%;
+    margin: auto;
+  }
+
+  #materials-list > li {
+    margin-top: 8%;
+  }
+
+  .content {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .content a {
+    color: white;
+  }
+
+  .content > p {
+    margin-top: 2.5%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    width: 80%;
+  }
+
+  .content > ul {
+    text-align: left;
+    margin-left: 5%;
+    list-style: square outside;
+  }
+
+  #homepage-staff-flexbox {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    width: 80%;
+    column-gap: 15px;
+  }
+
+  .hp-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .hp-card > img {
+    width: 100px;
+    margin: auto;
+  }
+
+  #harbin-image {
+    width: 100px;
+    height: auto;
+  }
+
+  .hp-card > p {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 20rem) and (max-width: 39.99rem) /* for phones */ {
+  body {
+    font-family: Monospace, serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+    top: 0;
+    left: 0;
+    padding: 7.5px 5px 7.5px 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar > ul > li {
+    /* display: inline-block; */
+    padding: 0px 5px 0px 5px;
+    flex-shrink: 0;
+  }
+
+  .navbar > ul > li > a {
+    /* display: inline-block; */
+    font-size: 1.15em;
+    background-color: #a3b8c8;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar-page-button {
+    display: none;
+  }
+
+  .navbar-page-button > a {
+    display: none;
+  }
+
+  .header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+
+  #homepage-header {
+    background-image: url(imgs/homepage-header.jpg);
+    background-position: left;
+  }
+
+  #rec-materials-header {
+    background-image: url(imgs/origami-paper.jpg);
+    background-position: center;
+  }
+
+  .header-flexbox {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .header-flexbox > h1 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .header-flexbox > h3 {
+    padding: 30px 20px 30px 20px;
+    margin: auto;
+    margin-bottom: 2.5%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .header-flexbox > h5 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    width: auto;
+    height: 100%;
+    max-width: 75%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .header-flexbox > ul {
+    padding: 30px 20px 30px 20px;
+    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: auto;
+    width: auto;
+    max-width: 75%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+}
