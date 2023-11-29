@@ -77,6 +77,11 @@
     background-position: left;
   }
 
+  #history-header {
+    background-image: url(imgs/pyramid-origami.jpg);
+    background-position: center;
+  }
+
   #rec-materials-header {
     background-image: url(imgs/origami-paper.jpg);
     background-position: center;
@@ -155,15 +160,28 @@
   }
 
   .content > p {
-    margin-top: 2.5%;
     margin-bottom: 0;
     margin-left: 5%;
     width: 80%;
+    margin-top: 1rem;
+  }
+
+  .content > img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 0.313rem;
   }
 
   .content > ul {
     list-style: square outside;
     margin-left: 5%;
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
   }
 
   #homepage-staff-flexbox {
@@ -189,6 +207,98 @@
   .hp-card > p {
     width: 50%;
     text-align: center;
+  }
+  .design-small-header {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border-radius: 0.625rem;
+    text-align: center;
+  }
+
+  .design-category-text {
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  .design-image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  .design-image-column {
+    flex: 12.5%;
+    max-width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    max-width: 4.688rem;
+  }
+
+  .design-image-column:last-child {
+    padding-bottom: 0;
+  }
+
+  .design-image-row:last-child {
+    /* padding-right: 0.625rem; */
+  }
+
+  .design-image-and-text-container {
+    width: 4.688rem;
+    height: 4.688rem;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0.625rem;
+    border: none;
+  }
+
+  .design-image-and-text-container:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    .design-image-text-container > p {
+      display: inline-block;
+      color: white;
+      background-color: black;
+      height: min-content;
+    }
+  }
+
+  .design-image-text-container {
+    position: absolute;
+    height: 4.688rem;
+    width: 4.688rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+  }
+
+  .design-image-text-container > p {
+    display: none;
+    font-size: 10px; /*or whatever you want*/
+    color: #000000;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .design-image {
+    width: 4.688rem;
+    height: 4.688rem;
+    border-radius: 0.313rem;
+  }
+  #design-page-content {
+    padding: 0.625rem 0 0.625rem 0;
   }
 }
 
@@ -259,7 +369,6 @@
     pointer-events: none;
   }
 
-  /* testing */
   .dropdown {
     float: left;
     overflow: hidden;
@@ -313,15 +422,14 @@
     list-style: square outside;
   }
 
-  .content > p {
-    text-align: center;
-    margin: 0 auto;
-    display: inline-block;
-  }
-
   #homepage-header {
     background-image: url(imgs/homepage-header.jpg);
     background-position: left;
+  }
+
+  #history-header {
+    background-image: url(imgs/pyramid-origami.jpg);
+    background-position: center;
   }
 
   #rec-materials-header {
@@ -361,7 +469,7 @@
 
   .header-flexbox > h5 {
     padding: 1.875rem 1.25rem 1.875rem 1.25rem;
-    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-top: 4.5rem; /* h1 elements have a default margin (???) */
     margin-bottom: 2.5%;
     margin-left: auto;
     margin-right: auto;
@@ -387,17 +495,6 @@
     margin-top: 8%;
   }
 
-  #materials-list {
-    text-align: center;
-    list-style: upper-roman outside;
-    width: 20%;
-    margin: auto;
-  }
-
-  #materials-list > li {
-    margin-top: 8%;
-  }
-
   .content {
     text-align: center;
     background-color: black;
@@ -409,6 +506,14 @@
     color: white;
   }
 
+  .content > img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+    width: 50%;
+    border-radius: 0.313rem;
+  }
+
   .content > p {
     margin-top: 2.5%;
     margin-bottom: 0;
@@ -416,10 +521,19 @@
     width: 80%;
   }
 
+  .content > p {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
   .content > ul {
     text-align: left;
     margin-left: 5%;
     list-style: square outside;
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
   }
 
   #homepage-staff-flexbox {
@@ -456,9 +570,90 @@
   .hp-card > p {
     text-align: center;
   }
+
+  .design-small-header {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-top: 4.5rem; /* h1 elements have a default margin (???) */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border-radius: 0.625rem;
+    text-align: center;
+  }
+
+  .design-category-text {
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  .design-image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  .design-image-column {
+    flex: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    max-width: 4.688rem;
+  }
+
+  .design-image-column:last-child {
+    padding-bottom: 0;
+  }
+
+  .design-image-row:last-child {
+    /* padding-right: 0.625rem; */
+  }
+
+  .design-image-and-text-container {
+    width: 4.688rem;
+    height: 4.688rem;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0.625rem;
+    border: none;
+  }
+
+  .design-image-text-container {
+    position: absolute;
+    height: 4.688rem;
+    width: 4.688rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+  }
+
+  .design-image-text-container > p {
+    display: inline-block;
+    font-size: 10px; /*or whatever you want*/
+    position: absolute;
+    height: min-content;
+    top: max-content;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: black;
+  }
+  .design-image {
+    width: 4.688rem;
+    height: 4.688rem;
+    border-radius: 0.313rem;
+  }
+  #design-page-content {
+    padding: 0.625rem 0 0.625rem 0;
+  }
 }
 
-@media only screen and (min-width: 20rem) and (max-width: 39.99rem) /* for phones */ {
+@media only screen and (min-width: 0rem) and (max-width: 39.99rem) /* for phones */ {
   body {
     font-family: Monospace, serif;
     margin: 0;
@@ -568,8 +763,6 @@
     display: block;
   }
 
-  /* end testing     */
-
   .header {
     background-repeat: no-repeat;
     background-size: cover;
@@ -579,6 +772,11 @@
   #homepage-header {
     background-image: url(imgs/homepage-header.jpg);
     background-position: left;
+  }
+
+  #history-header {
+    background-image: url(imgs/pyramid-origami.jpg);
+    background-position: center;
   }
 
   #rec-materials-header {
@@ -616,12 +814,11 @@
 
   .header-flexbox > h5 {
     padding: 1.875rem 1.25rem 1.875rem 1.25rem;
-    margin-top: 2.5%; /* h1 elements have a default margin (???) */
+    margin-top: 4.5rem; /* h1 elements have a default margin (???) */
     margin-bottom: 2.5%;
     margin-left: 2.5%;
     margin-right: auto;
     width: auto;
-    height: 100%;
     max-width: 75%;
     background-color: black;
     color: white;
@@ -663,7 +860,7 @@
     color: white;
   }
 
-  .content > p {
+  #rec-materials-content > p {
     display: inline-block;
     text-align: center;
     margin: auto;
@@ -673,16 +870,26 @@
     width: 80%;
   }
 
+  .content > p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+
+  .content > img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+    width: 50%;
+    border-radius: 0.313rem;
+  }
+
   .content > ul {
     text-align: left;
     margin: 1rem auto;
     width: 50%;
     list-style: square outside;
-  }
-
-  #homepage-header {
-    background-image: url(imgs/homepage-header.jpg);
-    background-position: left;
   }
 
   #rec-materials-header {
@@ -738,5 +945,86 @@
 
   .hp-card > p {
     text-align: center;
+  }
+
+  .design-small-header {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-top: 4.5rem; /* h1 elements have a default margin (???) */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border-radius: 0.625rem;
+    text-align: center;
+  }
+
+  .design-category-text {
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  .design-image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  .design-image-column {
+    flex: 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    max-width: 4.688rem;
+  }
+
+  .design-image-column:last-child {
+    padding-bottom: 0;
+  }
+
+  .design-image-row:last-child {
+    /* padding-right: 0.625rem; */
+  }
+
+  .design-image-and-text-container {
+    max-width: 4.688rem;
+    height: 4.688rem;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0.625rem;
+    border: none;
+  }
+
+  .design-image-text-container {
+    position: absolute;
+    height: 4.688rem;
+    width: 4.688rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+  }
+
+  .design-image-text-container > p {
+    display: inline-block;
+    font-size: 10px; /*or whatever you want*/
+    position: absolute;
+    height: min-content;
+    top: max-content;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: black;
+  }
+  .design-image {
+    width: 4.688rem;
+    height: 4.688rem;
+    border-radius: 0.313rem;
+  }
+  #design-page-content {
+    padding: 0.625rem 0 0.625rem 0;
   }
 }
