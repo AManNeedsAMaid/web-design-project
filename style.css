@@ -273,6 +273,7 @@
 
   .design-image-text-container {
     position: absolute;
+    cursor: default;
     height: 4.688rem;
     width: 4.688rem;
     text-align: center;
@@ -295,6 +296,7 @@
   .design-image {
     width: 4.688rem;
     height: 4.688rem;
+    object-fit: cover;
     border-radius: 0.313rem;
   }
   #design-page-content {
@@ -622,6 +624,7 @@
 
   .design-image-text-container {
     position: absolute;
+    cursor: default;
     height: 4.688rem;
     width: 4.688rem;
     text-align: center;
@@ -646,6 +649,7 @@
   .design-image {
     width: 4.688rem;
     height: 4.688rem;
+    object-fit: cover;
     border-radius: 0.313rem;
   }
   #design-page-content {
@@ -998,6 +1002,7 @@
 
   .design-image-text-container {
     position: absolute;
+    cursor: default;
     height: 4.688rem;
     width: 4.688rem;
     text-align: center;
@@ -1023,6 +1028,7 @@
     width: 4.688rem;
     height: 4.688rem;
     border-radius: 0.313rem;
+    object-fit: cover;
   }
   #design-page-content {
     padding: 0.625rem 0 0.625rem 0;
