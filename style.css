@@ -690,12 +690,16 @@
     width: 100%;
   }
 
-  .subdropdown:hover .subdropdown-content {
+  .subdrop-show {
     display: block;
-    border-radius: 0.625rem;
-    background-color: black;
-    width: 100%;
   }
+
+  /* .subdropdown:hover .subdropdown-content { */
+  /*   display: block; */
+  /*   border-radius: 0.625rem; */
+  /*   background-color: black; */
+  /*   width: 100%; */
+  /* } */
 
   .subdropdown-button {
     float: none;
@@ -1149,12 +1153,12 @@
     width: 100%;
   }
 
-  .subdropdown:hover .subdropdown-content {
-    display: block;
-    border-radius: 0.625rem;
-    background-color: black;
-    width: 100%;
-  }
+  /* .subdropdown:hover .subdropdown-content { */
+  /*   display: block; */
+  /*   border-radius: 0.625rem; */
+  /*   background-color: black; */
+  /*   width: 100%; */
+  /* } */
 
   .subdropdown-button {
     float: none;
@@ -1192,5 +1196,9 @@
     z-index: 10;
     max-width: inherit;
     text-align: right;
+  }
+
+  .subdrop-show {
+    display: block;
   }
 }
