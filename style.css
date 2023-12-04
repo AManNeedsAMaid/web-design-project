@@ -694,13 +694,6 @@
     display: block;
   }
 
-  /* .subdropdown:hover .subdropdown-content { */
-  /*   display: block; */
-  /*   border-radius: 0.625rem; */
-  /*   background-color: black; */
-  /*   width: 100%; */
-  /* } */
-
   .subdropdown-button {
     float: none;
     background-color: black;
@@ -1152,13 +1145,6 @@
     min-width: 10rem;
     width: 100%;
   }
-
-  /* .subdropdown:hover .subdropdown-content { */
-  /*   display: block; */
-  /*   border-radius: 0.625rem; */
-  /*   background-color: black; */
-  /*   width: 100%; */
-  /* } */
 
   .subdropdown-button {
     float: none;
