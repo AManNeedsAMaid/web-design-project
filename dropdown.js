@@ -26,7 +26,7 @@ window.onclick = function (event) {
       if (openSubDropdown.classList.contains("subdrop-show")) {
         setTimeout(function () {
           openSubDropdown.classList.remove("subdrop-show");
-        }, 1500);
+        }, 1000);
       }
     }
   }

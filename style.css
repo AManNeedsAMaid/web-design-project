@@ -302,6 +302,17 @@
   #design-page-content {
     padding: 0.625rem 0 0.625rem 0;
   }
+  .design-page-toc {
+    text-align: center;
+  }
+
+  .design-page-toc > ol {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    /* list-style: inside; */
+    display: inline-block;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 40rem) and (max-width: 59.99rem) /* for tablets */ {
@@ -730,6 +741,18 @@
     z-index: 10;
     max-width: inherit;
     text-align: right;
+  }
+
+  .design-page-toc {
+    text-align: center;
+  }
+
+  .design-page-toc > ol {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    /* list-style: inside; */
+    display: inline-block;
+    text-align: left;
   }
 }
 
@@ -1186,5 +1209,17 @@
 
   .subdrop-show {
     display: block;
+  }
+
+  .design-page-toc {
+    text-align: center;
+  }
+
+  .design-page-toc > ol {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    /* list-style: inside; */
+    display: inline-block;
+    text-align: left;
   }
 }
