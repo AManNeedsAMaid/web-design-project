@@ -313,6 +313,10 @@
     display: inline-block;
     text-align: left;
   }
+
+  .design-page-toc > ol > li > a {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 40rem) and (max-width: 59.99rem) /* for tablets */ {
@@ -772,6 +776,9 @@
     /* list-style: inside; */
     display: inline-block;
     text-align: left;
+  }
+  .design-page-toc > ol > li > a {
+    display: block;
   }
 }
 
@@ -1267,5 +1274,9 @@
     /* list-style: inside; */
     display: inline-block;
     text-align: left;
+  }
+
+  .design-page-toc > ol > li > a {
+    display: block;
   }
 }
