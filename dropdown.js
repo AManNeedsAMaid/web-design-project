@@ -6,6 +6,11 @@ function myDropdown() {
 
 function mySubDropdown() {
   document.getElementById("nav-subdropdown").classList.toggle("subdrop-show");
+  setTimeout(function () {
+    document
+      .getElementById("first-drop-content-only")
+      .classList.toggle("drop-content-remove-corners");
+  }, 50); // in the middle of animation
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -26,7 +31,7 @@ window.onclick = function (event) {
       if (openSubDropdown.classList.contains("subdrop-show")) {
         setTimeout(function () {
           openSubDropdown.classList.remove("subdrop-show");
-        }, 1000);
+        }, 301);
       }
     }
   }
