@@ -1,5 +1,6 @@
 @media only screen and (min-width: 60rem) /* for desktop */ {
   body {
+    background-color: black;
     font-family: Monospace, serif;
     margin: 0;
     padding: 0;
@@ -322,6 +323,7 @@
 @media only screen and (min-width: 40rem) and (max-width: 59.99rem) /* for tablets */ {
   body {
     font-family: Monospace, serif;
+    background-color: black;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -785,6 +787,7 @@
 @media only screen and (min-width: 1rem) and (max-width: 39.99rem) /* for phones */ {
   body {
     font-family: Monospace, serif;
+    background-color: black;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
